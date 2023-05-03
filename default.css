@@ -1,0 +1,68 @@
+@font-face {
+    font-family: outfit-bold;
+    src: url("font/Outfit-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: outfit-regular;
+    src: url("font/Outfit-Regular.ttf") format("truetype");
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+background-color: #d6e2f0;
+
+}
+.main {
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 270px;;
+    height: 420px;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 100px;
+}
+.image {
+    text-align: center;
+}
+.qrcode {
+    width: 245px;
+    height:250px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.para1 {
+    color: #000000d5;
+    font-family: outfit-bold;
+    font-size: 20px;
+    font-weight: 700px;
+    width: 230px;
+    margin: auto;
+    padding-top: 15px;
+}
+.para2 {
+    box-sizing: border-box;
+    font-family: outfit-regular;
+    font-size: 13px;
+    color: #7b879d;
+    margin: 10px auto;
+    width: 220px;
+    height: 50px;
+    text-align: center;
+
+}
+/*
+the end of the main code!
+*/
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 10px;
+    font-family: outfit-bold;
+  }
+.attribution a { 
+    color: #3e52a3;
+    text-decoration: none;
+ }
